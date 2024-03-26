@@ -1,0 +1,14 @@
+1 - Instalar python no SO
+2 - Instalar pip no python
+3 - Instalar virtualenv
+4 - Criar pasta/diretorio referente ao projeto
+5 - Configurar ambiente virtual dentro da pasta do projeto
+5.1 - virtualenv  nome_do_ambiente_virtual
+5.2 - Ativar o ambiente virtual: 
+    >> source nome_da_virtualenv/bin/activate (Linux ou macOS)
+    >> venv/Scripts/Activate (Windows)
+src - source
+
+6 -
+pip install flask 
+pip install requests
