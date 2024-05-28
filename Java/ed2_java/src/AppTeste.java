@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class AppTeste {
     public static void main(String[] args) {
         Cliente jose = new Cliente("123");
-        Cliente maria =  new Cliente("354");
+        Cliente maria =  new Cliente("34");
         jose.setNome("Jose");
         jose.setSaldo(500);
 
@@ -18,7 +18,6 @@ public class AppTeste {
         ArrayList<Cliente> cadastro = new ArrayList<Cliente>();
         cadastro.add(jose);
         cadastro.add(maria);
-        System.out.println(cadastro);
-        
+        System.out.println(cadastro);        
     }
 }
