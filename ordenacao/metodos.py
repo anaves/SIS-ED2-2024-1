@@ -24,17 +24,22 @@ def intercala(inicio, meio, fim, lista):
 
 def merge_sort(inicio, fim, lista):
     if inicio < fim-1:
+        # identifica o elemento do meio
         meio = (inicio+fim)//2
+        # ordena a primeira metade
         merge_sort(inicio, meio, lista)
+        print(lista)
+        # ordena a segunda metade
         merge_sort(meio, fim, lista)
+        # combina as duas metades
         intercala(inicio, meio, fim, lista)
 
 
 if __name__ == "__main__":
     import random
-    valores = []
-    for i in range(10):
-        valores.append(random.randint(1, 1000))
+    valores = [10,9,8,7,6,5,4,3,2,1]
+    # for i in range(10):
+    #     valores.append(random.randint(1, 1000))
     tamanho = len(valores)
     merge_sort(0, tamanho, valores)
     print("ordenado")
