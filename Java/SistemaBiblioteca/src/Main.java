@@ -12,7 +12,10 @@ public class Main {
         
         bib.listarTodos();
         System.out.println("BUSCA ID");
-        System.out.println(bib.consultaID(3));
+        Livro obj4 = bib.consultaID(2);
+        if (obj4 != null){
+            System.err.println(obj4);
+        }
         
     }
 }
