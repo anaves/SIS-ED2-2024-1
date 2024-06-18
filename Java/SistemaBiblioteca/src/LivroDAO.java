@@ -90,6 +90,7 @@ public class LivroDAO {
 
     }
 
+    // ATIVIDADE PARA 24/06/2024
     public void alterar(Livro livro){
         
 
