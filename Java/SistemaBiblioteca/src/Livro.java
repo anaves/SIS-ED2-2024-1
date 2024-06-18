@@ -4,20 +4,20 @@ public class Livro {
     private String titulo;
     private String autor;
     private int ano;
-    private static int contador = 0;
+    // private static int contador = 0;
 
     // Construtor
     public Livro(String titulo) {
         this.setTitulo(titulo);
-        contador += 1;
-        this.setId(contador);
+        // contador += 1;
+        // this.setId(contador);
     }
 
     public int getId() {
         return id;
     }
 
-    private void setId(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
